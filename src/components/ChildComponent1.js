@@ -5,7 +5,7 @@ const ChildComponent1 = ({ onSelectOption }) => {
     <div>
       <div className='child1'>
       <h3>ChildComponent1</h3>
-      <p onClick={() => onSelectOption('Option 1')}>Select Option 1</p>
+      <button onClick={() => onSelectOption('Option 1')}>Select Option 1</button>
       </div>
     </div>
   );
